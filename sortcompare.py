@@ -3,7 +3,7 @@ import csv
 
 def parse(f):
     """Takes in an open CSV file of the format first, last, email and turns
-    it into a list that we can work with
+    it into a list that we can work with.
     """
     return [line.split(', ') for line in f]
 
